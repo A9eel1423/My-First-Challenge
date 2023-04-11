@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src:  url(../My-CV-webSystem/roboto.ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body {
+    background-color:rgb(214, 240, 253);
+    height: 100%;
+    width: 100%;
+}
+
+
+.parent {
+      background-color: white;
+      width: 32%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius:10px ;
+      -webkit-border-radius:10px ;
+      -moz-border-radius:10px ;
+      -ms-border-radius:10px ;
+      -o-border-radius:10px ;
+      transform: translate(100%, 20%);
+      -webkit-transform: translate(100%, 20%);
+      -moz-transform: translate(100%, 20%);
+      -ms-transform: translate(100%, 20%);
+      -o-transform: translate(100%, 20%);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.titel {
+    font-size: 20px;
+    color: black ;
+}
+.detials {
+font-size: 15px;
+color: rgb(177, 176, 176);
+}
+.attribution {
+    margin-top: 20vh;
+}
